@@ -128,10 +128,11 @@ body{
 
 .search-bar span{ 
   border: 1px solid blue;
-  padding: 5px;
   background-color: blue;
   color: white;
   border-radius: 4px;
+  width: 50px;
+  height: 100px;
 }
 
 .search-bar input{ 
@@ -289,8 +290,7 @@ body{
   width: 40px;
   height: 18px;
   align-items: center;
-  background-color: rgb(207, 85, 4);
-  border: 2px solid rgb(230, 105, 22);
+  background-color: rgb(218, 24, 24);
   position: absolute;
   top: -10px;
   right: 6px; 
@@ -573,7 +573,7 @@ body{
     color:  #267c34;
   }
   .r{
-    color: red;
+    color: rgb(114, 12, 12);
   }
   
   .catOptions {
