@@ -16,7 +16,6 @@ body{
   margin: auto;
 }
 
-/* primary header */
 .primary-head{
   display: flex;
   flex-direction: row;
@@ -191,7 +190,6 @@ body{
   }
 }
 
-/* **************department navbar***************** */
 
 .all-department{
   background-color: blue;
@@ -295,7 +293,6 @@ body{
 }
 
  
-/* ***************************************homepage************ */
 
 .homepage{
     display: flex;
@@ -381,7 +378,6 @@ body{
     }
 }
 
-/* ------------------Services------------------------- */
 
 
 .serviceContainer{
@@ -421,7 +417,6 @@ body{
 
 
 
-/* ---------------------buy section--------------- */
 
 .buyContainer{
   height: 590px;}
@@ -474,7 +469,6 @@ body{
 
 
 
-/* ***************************buy section carousel********************* */
 
   .carousel {
     margin-top: 12px;
@@ -532,7 +526,6 @@ body{
 
 
 
-/* ---------------------------------Featured product------ */
 
 
 
@@ -747,7 +740,6 @@ body{
 
 
 
-  /* ******************shop brand******************** */
 
 
   .shopBrand{
@@ -830,7 +822,6 @@ body{
 
 
 
-/* ************BLOG section css************ */
 
 .blogContainer{
   height: 859px; 
@@ -949,7 +940,6 @@ body{
 
 
 
-/* *******************poeple say************* */
 .PeoplesaySection{
   height: 550x;
 }
@@ -1003,7 +993,6 @@ body{
 
 
 
-/* **************Viewed container**************** */
 
 .Viewed_products{
   height: 300px;
