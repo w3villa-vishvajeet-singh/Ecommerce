@@ -1101,6 +1101,7 @@ footer{
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
+  box-shadow: 3px 2px 4px ;
 
 }
 
@@ -1114,6 +1115,7 @@ footer{
   color: blue;
   padding-bottom: 10px;
   padding-top: 3px;
+  font-size: 18px;
 }
 .main_footer{
   display: flex;
@@ -1124,6 +1126,13 @@ footer{
 padding-top: 10px;
 padding-left: 30px;
 padding-right: 30px;   
+}
+.row h3 {
+  font-size: 30px;
+
+}
+.row p{
+  font-size: 18px;
 }
 .height{
   height: 40px;

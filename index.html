@@ -447,7 +447,7 @@
 
 
             <div class="pimgcontainer">
-              <img class="pimage" src="./assets/img/phone2.jpg" />
+              <img class="pimage" src="./assets/img/watch.jpg" />
             </div>
             <div class="pname">
               <p class="pbrand">Erickson</p>
@@ -619,7 +619,7 @@
               </div>
               <div class="carousel-itemimproved" style="background-image: url('./assets/img/photo6.jpg')">
               </div>
-              <div class="carousel-itemimproved" style="background-image: url('./assets/img/photo7.jpg')">
+              <div class="carousel-itemimproved" style="background-image: url('./assets/img/photo4.jpg') ">
               </div>
               <div class="carousel-itemimproved" style="background-image: url('./assets/img/photo8.jpg')">
               </div>
@@ -1016,55 +1016,6 @@
 
 
 
-
-
-
-
-  <script>
-
-    let currentSlide = 0;
-
-    function moveSlide(direction) {
-      const carouselInner = document.querySelector('.carousel-inner');
-      const slides = document.querySelectorAll('.carousel-slide');
-      const totalSlides = slides.length;
-      const isNarrowScreen = window.innerWidth < 900;
-
-      if (isNarrowScreen) {
-        const items = document.querySelectorAll('.carousel-item');
-        const totalItems = items.length;
-
-        currentSlide = (currentSlide + direction + totalItems) % totalItems;
-        const offset = -currentSlide * 100 / totalItems;
-        carouselInner.style.transform = `translateX(${offset}%)`;
-      } else {
-        currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
-        const offset = -currentSlide * 100; 
-        carouselInner.style.transform = `translateX(${offset}%)`;
-      }
-    }
-
-    window.addEventListener('resize', () => {
-      currentSlide = 0;
-      const carouselInner = document.querySelector('.carousel-inner');
-      carouselInner.style.transform = 'translateX(0%)';
-    });
-
-
-
-    let currentSlideshop = 0;
-
-function moveSlideshop(direction) {
-   const carouselInnershop = document.querySelector('.carousel-innershop');
-     const slidesshop = document.querySelectorAll('.carousel-slideshop');
-   const totalSlidesshop = slidesshop.length;
-
-   currentSlideshop = (currentSlideshop + direction + totalSlidesshop) % totalSlidesshop;
-  const offset = -currentSlideshop * 100; 
-   carouselInnershop.style.transform = `translateX(${offset}%)`;
-}
-
-  </script>
 
 </body>
 
