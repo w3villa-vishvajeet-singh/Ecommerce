@@ -1091,6 +1091,7 @@ footer{
   align-items: center;
   margin-bottom: 40px;
   box-shadow: 3px 2px 4px ;
+  margin: 20px;
 
 }
 
@@ -1285,48 +1286,6 @@ media  query
 }
 
 
-/* Default styles */
-
-/* Styles for small screens (up to 768px) */
-@media only screen and (max-width: 768px) {
-  .buyContainer {
-    padding: 20px;
-  }
-
-  .buymain {
-    text-align: center;
-  }
-
-  .carousel-slide {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .carousel-item {
-    width: 50%; /* Display two items per row */
-    margin: 10px;
-  }
-}
-
-/* Styles for medium screens (768px to 1024px) */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .buymain {
-    text-align: center;
-  }
-
-  .carousel-slide {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .carousel-item {
-    width: 33.33%; /* Display three items per row */
-    margin: 10px;
-  }
-}
-
 /*Media query for small screens */
 @media (min-width: 576px) {
     .main_footer {
@@ -1389,7 +1348,7 @@ media  query
 }
 
 
-.right img{
+.right img{ 
   width: 321px;
   height: 62px;
   padding-right: 30px;
@@ -1403,8 +1362,6 @@ media  query
 
 .copy_right_section_footer .left{
 
-
-
   margin-left: 120px;
 
 } 
@@ -1412,6 +1369,21 @@ media  query
 
 
   margin-right: 120px;
+}
 
 
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+  .social_media_links{
+    flex-direction: column;
+    box-shadow: 0 0 0 ;
+   
+  }
+  .fa-brands{
+    padding: 10px;
+  }
+
+
+  
 }
