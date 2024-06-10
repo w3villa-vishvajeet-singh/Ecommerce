@@ -1368,6 +1368,11 @@ media  query
 
 /*Media query for small screens */
 @media (min-width: 576px) {
+
+.wishlist a {
+  display: none;
+}
+
     .main_footer {
         flex-direction: row;
         justify-content: space-between;
@@ -1402,12 +1407,22 @@ media  query
 
 /* Media queries for small and medium-sized screens */
 @media (max-width: 768px) {
+
+.wishlist a {
+  display: none;
+}
+
   .Viewed_products .most-viewed-item {
     width: 48%;
   }
 }
 
 @media (max-width: 480px) {
+
+.wishlist a {
+  display: none;
+}
+
   .Viewed_products .most-viewed-item {
     width: 100%;
   }
@@ -1521,7 +1536,7 @@ media  query
   }
 
 
-  .wishlist{
+  .wishlist a { 
     display: none;
   }
   
@@ -1576,7 +1591,7 @@ media  query
 
   
 
-.wishlist{
+.wishlist a {
   display: none;
 }
 
@@ -1655,7 +1670,7 @@ media  query
 }
 
 
-.wishlist{
+.wishlist a {
   display: none;
 }
 
