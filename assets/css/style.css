@@ -1659,7 +1659,7 @@ media  query
 /* Media query for medium screens */
 @media screen and (max-width: 1110px) {
 
-.wishlist a {
+.wishlist a i {
   display: none;
 }
 
