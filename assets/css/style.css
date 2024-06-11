@@ -24,6 +24,29 @@ body{
   position: relative;
 }
 
+.navigation-bar1 ul li a {
+text-decoration: none;
+color: black;
+
+}
+
+.navigation-bar2 ul  li a {
+  text-decoration: none;
+color: black;
+}
+.navigation-bar3 ul  li a {
+  text-decoration: none;
+color: black;
+}
+.fa-flag-checkered{
+  border: none;
+}
+
+.navigation-bar2 ul  li select{
+  border: none;
+}
+
+
 .navigation_bar nav ul{
   display: flex;
   flex-direction: row;
@@ -1598,7 +1621,7 @@ media  query
     
   width: 104%;
 }
-.carousel-innershop{
+.carousel-innershop{       
   width: 89%;
   padding-left: 50px;
 }
