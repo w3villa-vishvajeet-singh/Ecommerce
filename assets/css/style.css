@@ -1473,6 +1473,7 @@ media  query
   padding-right: 30px;
 }
 
+
 .left{
   position: absolute;
   top: 30px;
@@ -1567,17 +1568,12 @@ media  query
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
-  
-
   .copy_right_section_footer .left h3{
-    
     padding-left: 0;
- 
   }
 
 
-
+  
 .most-viewed-item{
   width: 20%;
 }
