@@ -16,14 +16,14 @@ body{
   margin: auto;
 }
 
-.primary-head{
+.primary_head{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   position: relative;
 }
 
-.navigation-bar nav ul{
+.navigation_bar nav ul{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -32,16 +32,16 @@ body{
   gap: 8px;
 }
 
-.navigation-bar2 select {
+.navigation_bar2 select {
   border: none;
   background-color: white;
 }
 
-.navigation-bar nav ul li{
+.navigation_bar nav ul li{
   gap: 2px;
 }
 
-.navigation-bar nav ul a{
+.navigation_bar nav ul a{
   text-decoration: none;
   color: black;
 }
@@ -1226,21 +1226,21 @@ media  query
 *//* Tablet devices: 481px to 1024px *//* Image section */
 /* Media query for medium screens */
 @media screen and (max-width: 1024px) {
-  .primary-header {
+  .primary_header {
 
     padding: 10px 20px;
   }
 
-  .primary-head {
+  .primary_head {
     flex-direction: column;
     align-items: center;
   }
 
-  .navigation-bar {
+  .navigation_bar {
     margin-bottom: 10px;
   }
 
-  .navigation-bar nav ul {
+  .navigation_bar nav ul {
     flex-direction: column;
     gap: 10px;
     text-align: center;
