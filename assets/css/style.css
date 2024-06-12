@@ -1,13 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 
 
 body{
   margin: 0;
   box-sizing: border-box;   
-  font-family: ui-rounded;
-  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
   font-style: normal;
 }   
 
@@ -28,22 +26,26 @@ body{
 text-decoration: none;
 color: black;
 
+
 }
 
 .navigation-bar2 ul  li a {
   text-decoration: none;
-color: black;
+  color: black;
 }
 .navigation-bar3 ul  li a {
   text-decoration: none;
-color: black;
+  color: black;
+  margin-left: 9px;
 }
 .fa-flag-checkered{
   border: none;
+  background: none;
 }
 
 .navigation-bar2 ul  li select{
   border: none;
+  background: none;
 }
 
 
@@ -121,13 +123,20 @@ color: black;
   font-size: 3em;
   margin: 0px;
 }
+.search-bar{
+  position: relative;
+}
 
 .search-bar span{ 
-  border: 1px solid blue;
   background-color: blue;
-  color: white;
-  padding: 8px;
-  border-radius: 2px;
+    color: white;
+    position: absolute;
+    left: -49px;
+    padding-top: 4px;
+    top: 3px;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    height: 25px;
     
 }
 .fa-angle-down{
@@ -146,7 +155,8 @@ color: black;
   height: 36px;
   color: white;
   background-color: blue;
-  border-radius: 4px;
+border-color: blue;
+
 }
 
 .login-signup{
@@ -159,6 +169,8 @@ color: black;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-right: 6px;
+
 }
 
 .login-signup-inner i{
@@ -175,6 +187,7 @@ color: black;
   color: white;
   background-color: blue;
   border-radius: 3px;
+  margin-left: 16px;
 }
 
 .hamburger-menu3{
@@ -228,7 +241,6 @@ color: black;
 }
 
 .department-heading{
-  border: 1px solid rgb(173 152 2);
   background-color: rgb(223, 212, 65);
   height: 40px;
   display: flex;
@@ -250,6 +262,24 @@ color: black;
   color: rgb(0, 0, 0);
   margin-right: 5px;
 }
+.Mega_menu {
+ position: relative;
+}
+.meaga_menu_child_new{
+  position: absolute;
+  top: 20px;
+  color: black;
+  background-color: rgb(223, 212, 65);
+  left: 70px;
+  top: -21px;
+  font-weight: 300;
+  width: 39px;
+padding-left: 8px;
+
+}
+
+
+
 
 .department-navbar > ul > .department-heading > a{
   color: black;
@@ -260,15 +290,13 @@ color: black;
   width: 40px;
   height: 18px;
   align-items: center;
-  background-color: rgb(218, 24, 24);
+  background-color: rgb(218 87 24);
   position: absolute;
   top: -10px;
   right: 6px; 
-  border-radius: 4px;
   padding-bottom: 6px;
   text-align: center;
-  padding-left: 3px;
-}
+    }
 
 .blog-heading{
   border: 1px solid rgb(173 152 2);
@@ -416,7 +444,9 @@ color: black;
 
 
 .buyContainer{
-  height: 590px;}
+  height: 590px;
+  
+}
 .buy_brand{
     display: flex;
     flex-direction: column;
@@ -442,8 +472,8 @@ color: black;
 
 .buy-categories{
     display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 28px;
+    margin-bottom: 32px;
 }
 
 .buy-categories>div>a{
@@ -645,7 +675,8 @@ color: black;
     position: relative;
     flex-direction: row;
     justify-content: space-between;
-    margin: 8px 0;
+    margin-top: 28px;
+    
   }
   
   .cartItem {
@@ -778,8 +809,8 @@ color: black;
 
 
   .shop-Brand{
-    height: 345px;
-  }
+    height: 288px
+    }
 
 
 .carouselshop{
@@ -870,7 +901,7 @@ color: black;
 
 
 .ImprovedGallery{
-      height: 450px;
+      height: 400px;
       background-color: #324358;
 }
 
@@ -983,6 +1014,7 @@ padding-right: 10px;
   opacity: 0.86;
 }
 
+
 .views p {
   display: flex;
   color: black;
@@ -990,8 +1022,9 @@ padding-right: 10px;
   padding: 0 12px;
   margin: 0;
 }
-.fa-user{
-  padding-right: 2px;
+.fa-user ,.fa-message ,  .fa-eye {
+  padding-right: 6px;
+  padding-top: 4px;
 
 }
 
@@ -1093,7 +1126,9 @@ padding-right: 10px;
   margin-bottom: 8px;
 }
 
-
+.carousel-innershop{
+  
+}
 
 
 
@@ -1182,7 +1217,6 @@ padding-right: 10px;
 /*---footer */
 
 
-
 footer{
 
   width: 100%;
@@ -1196,7 +1230,6 @@ footer{
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
-  box-shadow: 3px 2px 4px ;
   margin: 20px;
 
 }
@@ -1249,7 +1282,7 @@ padding-right: 30px;
 media  query 
 *//* Tablet devices: 481px to 1024px *//* Image section */
 /* Media query for medium screens */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .primary_header {
 
     padding: 10px 20px;
@@ -1269,14 +1302,9 @@ media  query
     gap: 10px;
     text-align: center;
   }
-
-  .hamburger-menu {
-    display: block;
-    position: absolute;
-    left: 20px;
-    top: 20px;
-  }
-
+.NONE{
+  display: none;
+}
   .hamburger-menu2 {
     display: none;
   }
@@ -1289,17 +1317,18 @@ media  query
     display: none;
   }
 
+
   .hamburger-menu3 {
-    display: block;
-    position: absolute;
-    right: 20px;
-    top: 20px;
+    display: none;
   }
+
 }
 
 /* Media query for small screens */
 @media screen and (max-width: 768px) {
-  .secondary-head {
+  
+  .secondary-head 
+  {
     flex-direction: column;
     align-items: center;
   }
@@ -1310,10 +1339,26 @@ media  query
 
   .search-bar input {
     width: 200px;
+    margin-bottom: 30px;
   }
+
+  .search-bar  span {
+    height: 20px;
+  }
+
+.NONE{
+  display: none;
 }
+.blog-heading{
+  display: none;
+}
+}
+@media screen and (max-width: 576px) { 
 
-
+.improved_carousel_slideshop{
+  display: none;
+}
+}
 /* Media query for medium screens */
 @media screen and (max-width: 1024px) {
 
@@ -1343,11 +1388,17 @@ media  query
   }
 }
 
+
 /* Media query for small screens */
 @media screen and (max-width: 768px) {
   .department-heading a:after {
     content: none;
   }
+  .hamburger-menu3  .fa-bars{
+    display: none;
+
+  }
+
 }
 
 
@@ -1390,12 +1441,6 @@ media  query
 
 
 
-@media  screen and (max-width: 935px) {
- 
-
-}
-
-
 /*Media query for small screens */
 @media (min-width: 576px) {
 
@@ -1427,6 +1472,7 @@ media  query
         text-align: left;
         width: 22%;
     }
+
 }
 
 
@@ -1471,6 +1517,20 @@ media  query
   width: 321px;
   height: 62px;
   padding-right: 30px;
+  position: absolute;
+  top: 20px;
+    right: 20px;
+
+}
+.right .fa-arrow-up{
+
+  position: absolute;
+  top: 30px;
+    right: 20px;
+    left: 1px;
+
+
+
 }
 
 
@@ -1497,16 +1557,14 @@ media  query
 
 
   .social_media_links{
-    flex-direction: column;
-    box-shadow: 0 0 0 ;
+    flex-direction: row;
+    width: 90%;
    
   }
   .fa-brands{
     padding: 10px;
   }
 
-
-  
 }
 
 
@@ -1578,7 +1636,7 @@ media  query
   width: 20%;
 }
 .buy_brand{
-  margin-top: 19px;
+  margin-top: 10px;
 }
 .allQuotes{
     
@@ -1587,6 +1645,7 @@ media  query
 .carousel-innershop{
   width: 89%;
   padding-left: 50px;
+
 }
 
 
@@ -1669,7 +1728,6 @@ media  query
     justify-content: space-around;
     margin-top: 120px;
   
-
 }
 
 
