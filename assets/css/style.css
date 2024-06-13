@@ -584,6 +584,9 @@ align-items: center;
 
 }
 
+
+
+
 @media (max-width: 576px) {
   .carousel,
   .carousel-inner,
@@ -594,12 +597,20 @@ align-items: center;
   .carousel-item {
     height: 150px;
   }
+  .buy_brand {
+    margin-top: 101px;
+}
 
   .carousel-item p {
     font-size: 12px;
     bottom: 5px;
   }
 
+
+.blogCardimg {
+  height: 231px;
+  width: 100%;
+}
 
   .servicelist {
     display: flex;
@@ -618,22 +629,27 @@ align-items: center;
 .Mega_menu{
   display: none;
 }
-
-
 .cartItems {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  position: relative;
+  flex-direction: row;
   justify-content: space-between;
+
+}
+
+}
+
+
+
+
+
+.buy-categories {
+  display: grid;
   margin-top: 28px;
+  margin-bottom: 32px;
+  grid-template-columns: auto auto auto auto
+
 }
-
-
-}
-
-
-
-
-
 
 .feature_Container{
   height: 850px;
@@ -857,7 +873,6 @@ align-items: center;
 
   margin-top: 12px;
   margin-bottom: 12px;
-  display: flex;
   overflow: hidden;
   width: 100%;
   height: 160px;
@@ -866,9 +881,6 @@ align-items: center;
   display: flex;
   width: 100%; 
   padding-bottom: -120px;
-
-
- 
 }
 .improved_carousel_slideshop {
 
@@ -1392,12 +1404,20 @@ media  query
 .blog-heading{
   display: none;
 }
-}
-@media screen and (max-width: 576px) { 
 
-.improved_carousel_slideshop{
+
+.meaga_menu_child_new {
+
   display: none;
 }
+.Mega_menu {
+  display: none;
+}
+.buy_brand {
+  margin-top: 63px;
+}
+
+
 }
 /* Media query for medium screens */
 @media screen and (max-width: 1024px) {
@@ -1496,6 +1516,9 @@ media  query
         text-align: left;
         width: 45%;
     }
+
+
+
 }
 
 /*Media query for small screens */
@@ -1506,6 +1529,12 @@ media  query
         justify-content: space-between;
         flex-wrap: wrap;
     }
+
+ 
+    
+  .right  .fa-arrow-up{
+  display: none;
+}
 
     .row {
         flex-direction: column;
@@ -1530,12 +1559,6 @@ display: flex;
     justify-content: center;
     align-items: center;
 }
-.what_people_say h1{
-
-position: absolute;
-top: 300px;
-}
-
 
 .views {
   display: none;
@@ -1568,7 +1591,7 @@ top: 300px;
   flex-direction: column;
   justify-content: center;
   background-color: white;
-  margin-top: 310px;
+  margin-top: 150px;
 }
 
 
@@ -1671,7 +1694,7 @@ top: 300px;
 }
 
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 768px) {
 
 
   .social_media_links{
@@ -1682,6 +1705,8 @@ top: 300px;
   .fa-brands{
     padding: 10px;
   }
+
+
 
 }
 
@@ -1723,12 +1748,57 @@ top: 300px;
   .copy_right_section_footer{
     display: flex;
     position: relative;
-    height: 200px;
+    height: 120px;
   width: 100%;
 
 
   }
 
+  .carousel-itemimproved{ 
+    
+
+  height: 99px;
+
+
+}
+
+  .carousel-itemshop_NONE{
+    display: none;
+  }
+  .carousel-itemimproved_NONE{
+    display: none;
+  }
+
+
+.blogCard_NONE{
+  display: none;
+}
+
+.cartItem_None{
+  display: none;
+}
+
+  .carousel-itemshop_NONE{
+    display: none;
+  }
+  
+  .buy_brand h1 {
+    font-size: xx-large;
+    margin-bottom: -6%;
+}
+
+.shop_buy_brand  {
+  margin-top: 110px;
+}
+  .allQuotes {
+    width: 81%;
+  }
+
+
+  .what_people_say h1 {
+    position: absolute;
+    top: 100px;
+}
 
   .copy_right_section_footer .right img {
 
@@ -1739,10 +1809,14 @@ top: 300px;
   }
 
   .left h3{
-    position: absolute;
     top: 40px;
   margin-left: 10px;
   }
+
+
+
+
+  
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -1772,26 +1846,68 @@ top: 300px;
 
 
 }
-@media (max-width: 992px) {
+@media (min-width:576px)and (max-width: 768px) {
 
   
 
 
 
-  .copy_right_section_footer .left h3{
+  .copy_right_section_footer .left h3
+  {
     
     padding-left: 0;
  
   }
 
 
-
+ .most-viewed-item_NONE{
+    display: none;
+  }
 .most-viewed-item{
   width: 20%;
 }
 .buy_brand{
-  margin-top: 19px;
+  margin-top: 63px;
 }
+.cartItem_None{
+  display: none;
+}
+.shop_buy_brand h1 {
+  margin-top: 95px;
+}
+
+.carousel-itemimproved_NONE{
+  display: none;
+}
+.views{
+  display: none;
+}
+.blogCard_NONE{
+  display: none;
+}
+.PeoplesaySection{ 
+  height: 300px;
+  margin-top: 25%;
+}
+.what_people_say{
+  padding-top: 5px;
+  position: relative;
+  display: flex;
+ flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .what_people_say h1{
+  
+  position: absolute;
+  top: 10px;  
+  }
+
+.carousel-itemimproved {
+  height: 100px;
+}
+
+
 .allQuotes{
     
   width: 104%;
@@ -1801,6 +1917,10 @@ top: 300px;
   padding-left: 50px;
 }
 
+.quotesCard_NONE{
+  display: none;
+}
+
 .right img{
 
   height: 40%;
@@ -1808,7 +1928,8 @@ top: 300px;
   margin-top:70px;
   margin-left: 150px;
 }
-.right .fa-arrow-up{
+.right .fa-arrow-up
+{
   display: none;
 }
 
@@ -1859,5 +1980,138 @@ top: 300px;
 .wishlist a i {
   display: none;
 }
+
+}
+
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+  .journal-heading h1 {
+    font-weight: 500;
+    padding: 20px;
+  }
+  .NONE{
+    display: none;
+  }
+  .buy_brand {
+   
+    margin-top: 39px;
+}
+.views {
+  display: none;
+}
+.quotesCard_NONE{
+  display: none;
+}
+
+.what_people_say h1 {
+  margin-left: 25%;
+}
+.PeoplesaySection{
+  margin-top: 186px;
+}
+
+.most-viewed-item_NONE{
+  display: none;
+}
+.right .fa-arrow-up{
+  display: none;
+}
+
+.right img {
+  display: none;
+}
+.shop_buy_brand {
+  
+  margin-top: 76px;
+}
+.carousel-itemshop_NONE{
+  display: none;
+}
+.carousel-itemimproved_NONE{
+  display: none;
+}
+  .cartItem_None{
+    display: none;
+  }
+  .secondary-head {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    }
+    .meaga_menu_child_new{
+      display: none;
+    }
+
+    .Mega_menu {
+      display: none;
+    }
+
+    .Allservices{
+      margin-top: 200px;
+    }
+
+
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+
+.Allservices {
+
+  margin-top: 210px;
+}
+.cartItem_None{
+  display: none;
+}
+.shop_buy_brand h1 {
+  margin-top: 58px;
+}
+.carousel-itemimproved_NONE{
+  display: none;
+}
+
+
+.what_people_say h1 {
+margin-left: 25%;
+}
+.PeoplesaySection {
+  margin-top: 99px;
+}
+.right img{
+  display: none;
+
+}
+
+.right .fa-arrow-up{
+
+  display: none;
+}
+.hamburger-menu3{
+  display: none;
+}
+}
+
+
+@media (min-width: 1200px) and (max-width:1364px){
+  
+  .hamburger-menu3{
+    display: none;
+  }
+
+.Allservices {
+  margin-top: 36px;
+}
+
+.what_people_say h1 {
+  margin-left: 30%;
+  }
+  .most-viewed h2 {
+    margin-left: 9%;
+  }
 
 }
