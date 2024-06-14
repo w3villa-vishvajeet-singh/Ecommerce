@@ -1311,7 +1311,24 @@ width: 90%;
 .what_people_say{
   margin-top: 40px;
 }
+
+.discount-badge {
+  position: absolute;
+  top: 47px;
+  left: 43px;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  background-color: rgba(255, 0, 0, 0.89);
+  color: white;
+  padding: 4px 41px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+
 /*---footer */
+
+
+
 
 
 footer{
