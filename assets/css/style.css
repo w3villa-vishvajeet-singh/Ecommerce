@@ -567,7 +567,7 @@ align-items: center;
   .carousel-inner,
   .carousel-slide {
     height: 120px;
-    margin-left: 15px;
+    margin-left: 7px;
   }
 
   .carousel-item {
@@ -581,7 +581,9 @@ align-items: center;
   .allBlogs {
     gap: 0;
   }
-
+  .cartItems{
+    width: 98%;
+  }
 }
 
 
@@ -594,6 +596,12 @@ align-items: center;
     height: auto;
   }
 
+  .cartItems{
+    width: 98%;
+  } 
+  .most-viewed-item_NONE{
+    display: none;
+  }
   .carousel-item {
     height: 150px;
   }
@@ -1605,6 +1613,7 @@ display: flex;
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: nowrap;
+        width: 72%;
     }
 
     .row {
@@ -1868,6 +1877,7 @@ display: flex;
 }
 .buy_brand{
   margin-top: 63px;
+  width: 98%;
 }
 .cartItem_None{
   display: none;
@@ -1890,7 +1900,6 @@ display: flex;
   margin-top: 25%;
 }
 .what_people_say{
-  padding-top: 5px;
   position: relative;
   display: flex;
  flex-direction: column;
@@ -1899,8 +1908,7 @@ display: flex;
   }
   .what_people_say h1{
   
-  position: absolute;
-  top: 10px;  
+    display: none;  
   }
 
 .carousel-itemimproved {
@@ -1910,7 +1918,7 @@ display: flex;
 
 .allQuotes{
     
-  width: 104%;
+  width: 97%;
 }
 .carousel-innershop{       
   width: 89%;
@@ -1932,15 +1940,19 @@ display: flex;
 {
   display: none;
 }
-
-
+.carousel-itemshop_NONE
+{
+  display: none;
+}
 .journal-heading h1{ 
 
   padding: 20px;
   font-weight: 500;
   padding: 20px;
 }
-
+.allproducts a{
+  display: none;
+}
 
 .hamburger-menu a  {
   display: none;
@@ -1997,13 +2009,23 @@ display: flex;
    
     margin-top: 39px;
 }
+
+.carousel-slide {
+  width: 98%;
+  margin-left: 10px;
+}
+.allBlogs{
+  width: 99%;
+}
 .views {
   display: none;
 }
 .quotesCard_NONE{
   display: none;
 }
-
+.what_people_say {
+  width: 98%;
+}
 .what_people_say h1 {
   margin-left: 25%;
 }
@@ -2056,11 +2078,28 @@ display: flex;
 
 
 
-
 @media (min-width: 992px) and (max-width: 1200px) {
+  .secondary-head{
+    justify-content: space-around;
+  }
 
 
+.carousel-slide{
+  width: 97%;
+  margin-left: 18px;
+}
 
+.allBlogs{
+  width: 97%;
+}
+
+.cartItems{
+  width: 98%;
+}
+
+.what_people_say{
+  width: 95%;
+}
 .Allservices {
 
   margin-top: 210px;
