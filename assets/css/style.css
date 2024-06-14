@@ -411,7 +411,7 @@ align-items: center;
 }
 
 .shop_buy_brand h1 {
-  margin-top: 20px;
+  margin-top: 50px;
 
 }
 
@@ -542,12 +542,13 @@ align-items: center;
 .carousel-item p {
     position: absolute;
     bottom: 10px;
-    left: 20%;
-    right: 20%;
+    left: 10%;
+    
     color: white;
     background-color: rgba(35, 188, 191, 0.5);
-    padding: 6px 10px;
+    padding: 6px ;
     margin: 0;
+    overflow-x: hidden;
 }
 
 
@@ -585,15 +586,34 @@ align-items: center;
     width: 98%;
   }
 }
+.why_buy_from_us{
 
 
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.why_buy_from_us p{
+  width: 95%;
+}
 
-
-@media (max-width: 576px) {
+@media  (max-width: 576px) {
   .carousel,
   .carousel-inner,
   .carousel-slide {
     height: auto;
+  }
+  .most-viewed {
+    width: 87%;
+    margin-left: 26px;
+}
+.most-viewed-item_NONE{
+  display: none;
+}
+
+  .carousel-itemshop_NONE{
+    display: none;
   }
 
   .cartItems{
@@ -608,13 +628,14 @@ align-items: center;
   .buy_brand {
     margin-top: 101px;
 }
-
-  .carousel-item p {
-    font-size: 12px;
-    bottom: 5px;
-  }
-
-
+.carousel-item p {
+  font-size: 10px;
+  bottom: 5px;
+  width: 47%;
+}
+.NONE {
+  display: none;
+}
 .blogCardimg {
   height: 231px;
   width: 100%;
@@ -808,8 +829,11 @@ align-items: center;
     font-size: 20px;
     font-weight: 460;
   
+  }.what_people_say h1 {
+    margin-left: 34%;
+    margin-bottom: 40px;
+
   }
-  
   .price h5 {
     margin:8px 14px;
     font-size: 14px;
@@ -905,6 +929,12 @@ align-items: center;
   background-size: cover;
   background-position: center;
 }
+.vertical-line {
+            width: 1px; /* You can adjust the width as needed */
+                height: 318px;
+            background-color: rgb(182, 176, 176); /* You can change the color as needed */
+      
+          }
 
 
 
@@ -963,6 +993,8 @@ align-items: center;
 .ImprovedGallery{
       height: 400px;
       background-color: #324358;
+    margin-top: 40px;
+
 }
 
 
@@ -1010,6 +1042,7 @@ display: flex;
 
 
 padding-right: 10px;
+width: 90%;
 
 }
   
@@ -1272,8 +1305,12 @@ padding-right: 10px;
   display: flex;
   flex-direction: row;
   gap:20px
+
 }
 
+.what_people_say{
+  margin-top: 40px;
+}
 /*---footer */
 
 
@@ -1289,8 +1326,8 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
-  margin: 20px;
+  margin-bottom: 20px;
+  margin: 5px;
 
 }
 
@@ -1330,6 +1367,7 @@ padding-right: 30px;
 
 .input{
   position: relative;
+  width: 96%;
 }
 .button{
  
@@ -1362,9 +1400,6 @@ media  query
     gap: 10px;
     text-align: center;
   }
-.NONE{
-  display: none;
-}
   .hamburger-menu2 {
     display: none;
   }
@@ -1467,6 +1502,9 @@ media  query
 
   }
 
+  .carousel-item p {
+overflow: hidden;  }
+
 }
 
 
@@ -1538,9 +1576,16 @@ media  query
         flex-wrap: wrap;
     }
 
- 
+    .shop_buy_brand h1 {
+      margin-top: -32px;
+  }
+     .buy_brand {
+    margin-top: 53px;
+}
     
-  .right  .fa-arrow-up{
+  .right  .fa-arrow-up
+  {
+
   display: none;
 }
 
@@ -1551,9 +1596,14 @@ media  query
         width: 45%;
     }
     .social_media_links{
-      flex-direction: column;
-      gap: 30px;
+      flex-direction:row;
+
+      gap: 2px;
 }
+
+
+
+
 
 
 .most-viewed-items-icons {
@@ -1568,9 +1618,6 @@ display: flex;
     align-items: center;
 }
 
-.views {
-  display: none;
-}
 .blogCard img {
  
   height: 235px;
@@ -1587,7 +1634,7 @@ display: flex;
 
 .quotesCard p {
   margin-top: 10px;
-  font-size: 9px;
+  font-size: 18px;
   color: black;
   font-weight: 200;
   text-align: center;
@@ -1599,7 +1646,7 @@ display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: white;
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 
@@ -1613,7 +1660,7 @@ display: flex;
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: nowrap;
-        width: 72%;
+        width: 100%;
     }
 
     .row {
@@ -1623,7 +1670,13 @@ display: flex;
         width: 22%;
     }
 
+
+    
+
+
+
 }
+
 
 
 
@@ -1716,6 +1769,10 @@ display: flex;
   }
 
 
+.what_people_say {
+  margin-top: -150px;
+}
+
 
 }
 
@@ -1762,6 +1819,13 @@ display: flex;
 
 
   }
+  .shop-Brand {
+    height: 174px;
+}
+
+ .most-viewed-item_NONE{
+  display: none;
+}
 
   .carousel-itemimproved{ 
     
@@ -1769,6 +1833,9 @@ display: flex;
   height: 99px;
 
 
+}
+.what_people_say h1{
+  display: none;
 }
 
   .carousel-itemshop_NONE{
@@ -1807,6 +1874,8 @@ display: flex;
   .what_people_say h1 {
     position: absolute;
     top: 100px;
+    font-size: larger;
+    right: 100px;
 }
 
   .copy_right_section_footer .right img {
@@ -1869,9 +1938,6 @@ display: flex;
   }
 
 
- .most-viewed-item_NONE{
-    display: none;
-  }
 .most-viewed-item{
   width: 20%;
 }
@@ -2002,9 +2068,6 @@ display: flex;
     font-weight: 500;
     padding: 20px;
   }
-  .NONE{
-    display: none;
-  }
   .buy_brand {
    
     margin-top: 39px;
@@ -2047,15 +2110,9 @@ display: flex;
   
   margin-top: 76px;
 }
-.carousel-itemshop_NONE{
-  display: none;
-}
 .carousel-itemimproved_NONE{
   display: none;
 }
-  .cartItem_None{
-    display: none;
-  }
   .secondary-head {
     flex-direction: column;
     align-items: center;
@@ -2103,9 +2160,6 @@ display: flex;
 .Allservices {
 
   margin-top: 210px;
-}
-.cartItem_None{
-  display: none;
 }
 .shop_buy_brand h1 {
   margin-top: 58px;
